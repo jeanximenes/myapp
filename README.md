@@ -8,8 +8,8 @@ Passo a passo para publicação, seguindo a fonte mencionada na descrição dest
 
 ### Passos para publicar no gitHub:
 
-- npm init react-app "<nome-projeto>"
-- cd <nome-projeto>
+- npm init react-app "nome-projeto"
+- cd "nome-projeto"
 - npm install gh-pages --save-dev
 - edite o package.json da app para incluir:
    - "homepage": "https://jeanximenes.github.io/app", e
