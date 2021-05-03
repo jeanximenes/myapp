@@ -12,7 +12,7 @@ Passo a passo para publicação, seguindo a fonte mencionada na descrição dest
 - cd "nome-projeto"
 - npm install gh-pages --save-dev
 - edite o package.json da app para incluir:
-   - "homepage": "https://jeanximenes.github.io/app", e
+   - "homepage": "https://jeanximenes.github.io/myapp", e
    - "scripts": {
 	"predeploy": "npm run build",
 	"deploy": "gh-pages -d build", ...
